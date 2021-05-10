@@ -1,6 +1,6 @@
-import { chromium } from "playwright";
-import { roundConfig } from "./config";
-import { getPostContent } from "./getPostContent";
+import { chromium } from 'playwright';
+import { roundConfig } from './config';
+import { getPostContent } from './getPostContent';
 
 export const getSeasonPostContent = async () => {
   const browser = await chromium.launch();
@@ -14,5 +14,5 @@ export const getSeasonPostContent = async () => {
   }
 
   await browser.close();
-  return seasonPostContent.join("\r\n\r\n---\r\n\r\n");
+  return seasonPostContent.join('\r\n\r\n---\r\n\r\n');
 };
