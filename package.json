@@ -2,6 +2,7 @@
   "name": "bjfc",
   "version": "1.0.0",
   "scripts": {
+    "ci:build": "ts-node ./fixture.ts",
     "fixture": "ts-node ./fixture.ts"
   },
   "dependencies": {
