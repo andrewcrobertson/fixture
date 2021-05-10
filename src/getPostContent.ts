@@ -13,5 +13,5 @@ export const getPostContent = async (page: Page, round: number, date: string) =>
   postContent.push('');
   postContent.push('Go Baysie! 💚💛');
 
-  return postContent.join('\r\n');
+  return postContent;
 };
