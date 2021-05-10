@@ -4,7 +4,7 @@ import { getSeasonPostContent } from "./src/getSeasonPostContent";
 (async () => {
   const postContent = await getSeasonPostContent();
   fs.writeFileSync(
-    `fixture.txt`,
+    `index.html`,
     Buffer.from(`\ufeff${postContent}`, "utf16le")
   );
 })();
