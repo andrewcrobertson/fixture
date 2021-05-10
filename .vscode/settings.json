@@ -1,0 +1,11 @@
+{
+  "editor.tabSize": 2,
+  "files.exclude": {
+    "**/node_modules": true
+  },
+  "[typescript]": {
+    "editor.codeActionsOnSave": {
+      "source.organizeImports": true
+    }
+  }
+}
