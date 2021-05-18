@@ -28,7 +28,8 @@ export const getFixture = async (page: Page, round: number) => {
         const venueTmp = await venueElement.innerHTML();
         if (homeTmp === teamX.name || awayTmp === teamX.name) {
           const oppositionTeam = homeTmp === teamX.name ? awayTmp : homeTmp;
-          const venue = venueTmp === 'Bayswater Junior Oval' ? 'Home' : venueTmp;
+          const venueTmp2 = venueTmp === 'Bayswater Junior Oval' ? 'Home' : venueTmp;
+          const venue = venueTmp2 === 'Bayswater Oval' ? 'Bayswater Senior Oval' : venueTmp2;
           postContent.push(`${teamX.bullet} ${teamX.team} Vs ${oppositionTeam} @ ${venue} - ${timeTmp.replace('&nbsp;', '').toLowerCase()}`);
         }
       }

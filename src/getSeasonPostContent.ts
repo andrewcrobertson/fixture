@@ -23,7 +23,7 @@ export const getSeasonPostContent = async () => {
   seasonPostContent.push('\t\t\t<li><a href="https://websites.sportstg.com/comp_info.cgi?a=FIXTURE&compID=572988&c=1-722-0-572988-0">U12 Girls</a></li>');
   seasonPostContent.push('\t\t\t<li><a href="https://websites.sportstg.com/comp_info.cgi?a=FIXTURE&compID=572997&c=1-722-0-481763-0">U12 Boys</a></li>');
   seasonPostContent.push('\t\t\t<li><a href="https://websites.sportstg.com/comp_info.cgi?a=FIXTURE&compID=572989&c=1-722-0-481763-0">U14 Girls</a></li>');
-  seasonPostContent.push('\t\t\t<li><a href="https://websites.sportstg.com/comp_info.cgi?a=FIXTURE&compID=573005&c=1-722-0-481763-0">U14 Boys</a></li>');
+  seasonPostContent.push('\t\t\t<li><a href="https://websites.sportstg.com/comp_info.cgi?a=FIXTURE&compID=572974&c=1-722-0-481763-0">U14 Boys</a></li>');
   seasonPostContent.push('\t\t\t<li><a href="https://websites.sportstg.com/comp_info.cgi?a=FIXTURE&compID=572998&c=1-722-0-481763-0">U16 Girls</a></li>');
   seasonPostContent.push('\t\t\t<li><a href="https://websites.sportstg.com/comp_info.cgi?a=FIXTURE&compID=572982&c=1-722-0-481763-0">U17 Boys Gold</a></li>');
   seasonPostContent.push('\t\t\t<li><a href="https://websites.sportstg.com/comp_info.cgi?a=FIXTURE&compID=572966&c=1-722-0-481763-0">U17 Boys Green</a></li>');
