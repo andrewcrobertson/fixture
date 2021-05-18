@@ -14,8 +14,6 @@ export const teamConfig = [
 ];
 
 export const roundConfig = [
-  { number: 5, date: 'Sunday, May 9th, 2021' },
-  { number: 6, date: 'Sunday, May 16th, 2021' },
   { number: 7, date: 'Sunday, May 23rd, 2021' },
   { number: 8, date: 'Sunday, May 30th, 2021' },
   { number: 9, date: 'Sunday, June 6th, 2021' },
