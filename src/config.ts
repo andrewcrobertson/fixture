@@ -17,7 +17,7 @@ export const roundConfig = [
   { number: 7, date: 'Sunday, May 23rd, 2021' },
   { number: 8, date: 'Sunday, May 30th, 2021' },
   { number: 9, date: 'Sunday, June 6th, 2021' },
-  { number: 10, date: 'Sunday, June 13th, 2021' },
+  { number: 10, date: 'Sunday, June 20th, 2021' },
   { number: 11, date: 'Sunday, June 27th, 2021' },
   { number: 12, date: 'Sunday, July 4th, 2021' },
   { number: 13, date: 'Sunday, July 11th, 2021' },
