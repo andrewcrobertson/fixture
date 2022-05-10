@@ -1,7 +1,9 @@
-import * as fs from 'fs';
-import { getSeasonPostContent } from './src/getSeasonPostContent';
+import { extractFixture } from './src/extract/extractFixture';
+import { clashes } from './src/reports/clashes';
+import { groundUsage } from './src/reports/groundUsage';
 
 (async () => {
-  const postContent = await getSeasonPostContent();
-  fs.writeFileSync(`index.html`, Buffer.from(`\ufeff${postContent}`, 'utf16le'));
+  await extractFixture();
+  await groundUsage();
+  await clashes();
 })();

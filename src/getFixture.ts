@@ -8,7 +8,7 @@ export const getFixture = async (page: Page, round: number) => {
     const teamX = teamConfig[i];
 
     try {
-      await page.goto(`https://websites.sportstg.com/comp_info.cgi?round=${round}&a=ROUND&client=1-722-0-${teamX.compId}-0`);
+      await page.goto(`https://websites.mygameday.app/comp_info.cgi?a=ROUND&round=${round}&client=0-722-0-${teamX.compId}-0`);
 
       const name = await page.$$(`//select[@name="round"]/option[@value="${round}"]`);
       if (name.length === 0) throw new Error('No Round Yet');
