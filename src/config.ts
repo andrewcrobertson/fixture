@@ -110,7 +110,7 @@ export const teamConfig = [
   { bullet: '🟢', team: 'U8 Mixed', compId: '597011', name: 'Bayswater' },
   { bullet: '🟡', team: 'U9 Mixed', compId: '597017', name: 'Bayswater' },
   { bullet: '🟢', team: 'U10 Mixed', compId: '597002', name: 'Bayswater' },
-  { bullet: '🟡', team: 'U11 Mixed', compId: '597013', name: 'Bayswater/Kilsyth' },
+  { bullet: '🟡', team: 'U11 Mixed', compId: '596999', name: 'Bayswater/Kilsyth' },
   { bullet: '🟢', team: 'U12 Girls', compId: '596990', name: 'Bayswater' },
   { bullet: '🟡', team: 'U12 Boys', compId: '596966', name: 'Bayswater' },
   { bullet: '🟢', team: 'U13 Boys', compId: '596981', name: 'Bayswater' },
@@ -121,4 +121,19 @@ export const teamConfig = [
   { bullet: '🟡', team: 'U18 Girls', compId: '596967', name: 'Rowville Knights/ Bayswater' },
 ];
 
-export const roundConfig = [{ number: 4, date: 'Sunday, May 8th, 2022' }];
+export const roundConfig = [
+  { number: 1, date: 'Sunday, April 10th, 2022' },
+  { number: 2, date: 'Sunday, April 24th, 2022' },
+  { number: 3, date: 'Sunday, May 1st, 2022' },
+  { number: 4, date: 'Sunday, May 8th, 2022' },
+  { number: 5, date: 'Sunday, May 15th, 2022' },
+  { number: 6, date: 'Sunday, May 22nd, 2022' },
+  { number: 7, date: 'Sunday, May 29th, 2022' },
+  { number: 8, date: 'Sunday, June 5th, 2022' },
+  { number: 9, date: 'Sunday, June 19th, 2022' },
+  { number: 10, date: 'Sunday, June 26th, 2022' },
+  { number: 11, date: 'Sunday, July 3rd, 2022' },
+  { number: 12, date: 'Sunday, July 10th, 2022' },
+  { number: 13, date: 'Sunday, July 17th, 2022' },
+  { number: 14, date: 'Sunday, July 24th, 2022' },
+];
